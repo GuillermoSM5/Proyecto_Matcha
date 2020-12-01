@@ -12,6 +12,7 @@ main{
 .principal{
     text-align: center;
     color: #025157;
+    font-family: 'Alegreya Sans';
     font-size: 60px;
     margin-bottom: 25px;
 }
