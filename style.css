@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fffbf7;
+}
+.principal{
+    text-align: center;
+    color: #025157;
+}
+.parrafo{
+    text-align: center;
+    color: #46484c;
+}
+.reg{
+    text-align: center;
+}
+.ulist{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    color: #025157;
+    padding-right: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    /*display: flex;*/
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    height: 45px;
+    font-size: 0;
+}
+header>*{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 45px;
+}
+.nav_bar{
+    width: 70%;
+    text-align: center;
+    font-size: 16px;
+}
+.userActions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+}
+.userActions>*{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.userActions a{
+    color: #67b54b;
+}
+.userActions button{
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.logo{
+   width: 15%;
+}
+.logo>img{
+    height: 100%;
+}
+.rank{
+    text-align: center;
+}
+.try{
+ color: #fff;
+ background-color: #025157;
+}
+
