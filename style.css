@@ -5,8 +5,15 @@
 }
 body{
     background-color: #fffbf7;
-}
 
+}
+.nav_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
 header{
     /*display: flex;*/
     margin-top: 40px;
@@ -65,7 +72,7 @@ a{
     height: 100%;
 }
 main{
-    margin-top: 160px;
+    margin-top: 240px;
 }
 .principal{
     text-align: center;
