@@ -17,9 +17,10 @@ body{
 }
 header{
     /*display: flex;*/
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 20px ;
     font-family: sans-serif;
     height: 45px;
     font-size: 0;
@@ -253,3 +254,95 @@ main{
        height: 100%;
        
 }
+
+.casos_de_estudio{
+    display: flex;
+    background-color:#67b54b;
+    padding: 50px 200px;
+}
+
+.casos_de_estudio .info {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.casos_de_estudio .info h3{
+    font-size: 50px;
+    color: #025157;
+    font-family: 'Alegreya Sans';
+    margin-bottom: 20px;
+}
+.casos_de_estudio .info p{
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+.casos_de_estudio .info .try{
+    margin-bottom: 20px;
+}
+.casos_de_estudio .info figure img{
+    width: 75%;
+}
+
+.casos_de_estudio .ruleta{
+    flex: 1;
+    background-color: #fff;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* margin-bottom: 50px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.casos_de_estudio .ruleta figure{
+    flex: 1; 
+    width: 100%;
+}
+.casos_de_estudio .ruleta figure img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.casos_de_estudio .ruleta .everly{
+    background-color: #f9da73;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%                               ;
+    position: absolute;
+    bottom: 48%;
+    right: 5%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.casos_de_estudio .ruleta .everly img{
+    width: 100%;    
+    
+}
+.casos_de_estudio .ruleta .information{
+    flex: 5;
+    padding: 20px;
+}
+.casos_de_estudio .ruleta .information .title{
+    color: #025157;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.casos_de_estudio .ruleta .information h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+.casos_de_estudio .ruleta .information p{
+    margin-bottom: 20px;
+    color: #8b8b8bcc;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
