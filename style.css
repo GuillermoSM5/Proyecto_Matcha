@@ -380,10 +380,11 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 50px 200px;
-    margin-bottom: 3    0px;
+    padding: 5% 20%; 
+
 }
 .how_does .head h3{
     font-family: 'Alegreya Sans';
