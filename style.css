@@ -136,12 +136,13 @@ main{
 }
 .text_publish{
     flex: 1;
+    padding: 2%;
 }
 .how{
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     flex: 1;
 }
 
