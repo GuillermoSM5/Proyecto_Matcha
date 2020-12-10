@@ -7,6 +7,11 @@ body{
     background-color: #fffbf7;
 
 }
+.navbar {
+    width: 100%;
+    background-color: #fffbf7; 
+  }
+
 .nav_header{
     position: fixed;
     z-index: 100;
@@ -49,14 +54,14 @@ a{
     font-size: 16px;
 }
 .userActions{
-    width: 15%;
+    /* width: 15%; */
     text-align: right;
     font-size: 14px;
 }
-.userActions>*{
+/* .userActions>*{
     margin-left: 10px;
     margin-right: 10px;
-}
+} */
 .userActions a{
     color: #67b54b;
 }
@@ -66,6 +71,7 @@ a{
     padding: 12px 14px 12px 14px;
     border: none;
     border-radius: 5px;
+    margin-left: 10px;
 }
 .logo{
    width: 15%;
@@ -267,6 +273,7 @@ main{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    padding-right: 100px;
 }
 .casos_de_estudio .info h3{
     font-size: 50px;
@@ -286,17 +293,18 @@ main{
 .casos_de_estudio .info figure img{
     width: 75%;
 }
-
-.casos_de_estudio .ruleta{
+.cs{
+    width: 30%;
+}
+.ruleta{
     flex: 1;
     background-color: #fff;
-    margin-right: 50px;
-    margin-left: 50px;
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px; 
     position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    width: 100%;
 }
 .casos_de_estudio .ruleta figure{
     flex: 1; 
@@ -304,6 +312,7 @@ main{
 }
 .casos_de_estudio .ruleta figure img{
     width: 100%;
+    max-height: 240px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -319,6 +328,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.casos_de_estudio .ruleta .mambe{
+    top: 28%;
 }
 .casos_de_estudio .ruleta .everly img{
     width: 100%;    
@@ -343,6 +355,12 @@ main{
     margin-bottom: 20px;
     color: #8b8b8bcc;
     font-family: 'Open Sans', sans-serif;
+}
+.casos_de_estudio .ruleta .information .pEspecial{
+    line-height: 2;
+}
+.casos_de_estudio .ruleta .information .try{
+    width: 100%;
 
 }
 
@@ -426,9 +444,9 @@ main{
     main{
         margin-top: 130px;
     }
-    .nav_bar, .userActions {
+    /* .nav_bar, .userActions {
        display: none;
-    }
+    } */
     .principal{
         font-size: 30px;
     }
