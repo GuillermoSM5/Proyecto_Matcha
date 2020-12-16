@@ -138,6 +138,14 @@ main{
     flex: 1;
     padding: 2%;
 }
+.text_publish h3{
+    text-align: center;
+}
+.text_publish .reg{
+    justify-content: center;
+    align-items: center;
+   
+}
 .how{
     display:flex;
     flex-direction: column;
@@ -442,7 +450,7 @@ main{
     margin-bottom: 20px;
 
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     main{
         margin-top: 130px;
     }
@@ -476,6 +484,10 @@ main{
     .publish .text_publish p{
         font-size: 15px;
     }
+    .text_publish .reg{
+        align-items: center;
+    }
+    
     .publish .text_publish .reg p,
     .publish .text_publish .reg div input,
     .publish .text_publish .reg div button
@@ -522,5 +534,21 @@ main{
      .cs{
          width: 80%;
      }
+
+     .how_does{
+         grid-template-columns: 1fr ;
+         grid-template-rows: 100% 1fr 1fr 1fr;
+         padding: 1rem 1rem ;
+     }
+     .how_does .head{
+          padding: 1% 0 ; 
+     }
+     .how_does .head h3{
+        font-family: 'Alegreya Sans';
+        font-size: 30px ;
+        color: #025157;
+        margin-bottom: 15px;
+    }
+    
   }
 
