@@ -148,9 +148,6 @@ a{
 .btn-primary:not(:disabled):not(.disabled):active{
     color: blue;
 }
-/* btn-primary:not(:disabled):not(.disabled):focus{
-  background-color: blue;
-} */
 .accordion .btn-link:hover,
 .accordion .btn-link:focus {
   text-decoration: none;
@@ -160,7 +157,7 @@ a{
 .btn-group .btn:focus,
 .btn-group .btn:hover 
  {
-     box-shadow:0 0 20px #67b54b;
+     box-shadow:0 0 13px #67b54b;
     border-color: blue;
     color: #67b54b;
 }
