@@ -118,7 +118,13 @@ main{
  padding: 12px 14px 12px 14px;
  border-radius: 5px;
 }
+/* .try:hover{
+    box-shadow:0 0 13px #cccccc;
+} */
 
+.try:active{
+    box-shadow:0 0 20px gray ;
+}
 .picture img{
     
     width: 80%;
